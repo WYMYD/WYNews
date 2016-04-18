@@ -16,6 +16,7 @@
 		1B3267541CC1D126009CD32C /* WYNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3267531CC1D126009CD32C /* WYNewsTests.m */; };
 		1B32675F1CC1D126009CD32C /* WYNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B32675E1CC1D126009CD32C /* WYNewsUITests.m */; };
 		1B32676E1CC1D4DB009CD32C /* NetWorkrequestManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B32676D1CC1D4DB009CD32C /* NetWorkrequestManage.m */; };
+		791747561CC4FC5B005BE31B /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 791747551CC4FC5B005BE31B /* BaseModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		1B32676C1CC1D4DB009CD32C /* NetWorkrequestManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkrequestManage.h; sourceTree = "<group>"; };
 		1B32676D1CC1D4DB009CD32C /* NetWorkrequestManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkrequestManage.m; sourceTree = "<group>"; };
 		1B3267711CC1D55C009CD32C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		791747541CC4FC5B005BE31B /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		791747551CC4FC5B005BE31B /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				1B32673D1CC1D126009CD32C /* AppDelegate.m */,
 				1B32673F1CC1D126009CD32C /* ViewController.h */,
 				1B3267401CC1D126009CD32C /* ViewController.m */,
+				791747541CC4FC5B005BE31B /* BaseModel.h */,
+				791747551CC4FC5B005BE31B /* BaseModel.m */,
 				1B3267421CC1D126009CD32C /* Main.storyboard */,
 				1B3267451CC1D126009CD32C /* Assets.xcassets */,
 				1B3267471CC1D126009CD32C /* LaunchScreen.storyboard */,
@@ -288,6 +293,7 @@
 				1B3267411CC1D126009CD32C /* ViewController.m in Sources */,
 				1B32676E1CC1D4DB009CD32C /* NetWorkrequestManage.m in Sources */,
 				1B32673E1CC1D126009CD32C /* AppDelegate.m in Sources */,
+				791747561CC4FC5B005BE31B /* BaseModel.m in Sources */,
 				1B32673B1CC1D126009CD32C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +522,7 @@
 				1B3267651CC1D126009CD32C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B3267661CC1D126009CD32C /* Build configuration list for PBXNativeTarget "WYNewsTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				1B3267681CC1D126009CD32C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B3267691CC1D126009CD32C /* Build configuration list for PBXNativeTarget "WYNewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				1B32676B1CC1D126009CD32C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
