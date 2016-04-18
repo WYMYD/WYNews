@@ -23,6 +23,7 @@
     
     NSLog(@"xxx");
     NSLog(@"bbb");
+    NSLog(@"zzz");
 }
 
 - (NSString *)getTime:(long)second
