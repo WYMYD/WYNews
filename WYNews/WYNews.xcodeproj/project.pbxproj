@@ -19,6 +19,7 @@
 		791747561CC4FC5B005BE31B /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 791747551CC4FC5B005BE31B /* BaseModel.m */; };
 		7917475D1CC50641005BE31B /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7917475B1CC50641005BE31B /* BaseTableViewCell.m */; };
 		7917475E1CC50641005BE31B /* BaseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7917475C1CC50641005BE31B /* BaseTableViewCell.xib */; };
+		79E87A641CC5075500D32099 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E87A631CC5075500D32099 /* BaseCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		7917475A1CC50641005BE31B /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
 		7917475B1CC50641005BE31B /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
 		7917475C1CC50641005BE31B /* BaseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTableViewCell.xib; sourceTree = "<group>"; };
+		79E87A621CC5075500D32099 /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
+		79E87A631CC5075500D32099 /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				7917475A1CC50641005BE31B /* BaseTableViewCell.h */,
 				7917475B1CC50641005BE31B /* BaseTableViewCell.m */,
 				7917475C1CC50641005BE31B /* BaseTableViewCell.xib */,
+				79E87A621CC5075500D32099 /* BaseCollectionViewCell.h */,
+				79E87A631CC5075500D32099 /* BaseCollectionViewCell.m */,
 				1B3267421CC1D126009CD32C /* Main.storyboard */,
 				1B3267451CC1D126009CD32C /* Assets.xcassets */,
 				1B3267471CC1D126009CD32C /* LaunchScreen.storyboard */,
@@ -301,6 +306,7 @@
 			files = (
 				7917475D1CC50641005BE31B /* BaseTableViewCell.m in Sources */,
 				1B3267411CC1D126009CD32C /* ViewController.m in Sources */,
+				79E87A641CC5075500D32099 /* BaseCollectionViewCell.m in Sources */,
 				1B32676E1CC1D4DB009CD32C /* NetWorkrequestManage.m in Sources */,
 				1B32673E1CC1D126009CD32C /* AppDelegate.m in Sources */,
 				791747561CC4FC5B005BE31B /* BaseModel.m in Sources */,
