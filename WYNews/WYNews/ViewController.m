@@ -21,9 +21,7 @@
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:string]];
     [self.webView loadRequest:request];
     
-    NSLog(@"xxx");
-    NSLog(@"bbb");
-    NSLog(@"zzz");
+    
 }
 
 - (NSString *)getTime:(long)second
