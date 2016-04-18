@@ -22,6 +22,7 @@
     [self.webView loadRequest:request];
     
     NSLog(@"xxx");
+    NSLog(@"bbb");
 }
 
 - (NSString *)getTime:(long)second
