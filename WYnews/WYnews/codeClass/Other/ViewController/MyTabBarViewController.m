@@ -12,6 +12,7 @@
 
 #import "MyNewsViewController.h"
 
+#import "VideoListViewController.h"
 @interface MyTabBarViewController ()
 
 @end
@@ -45,7 +46,7 @@
 - (void)setupTabBar {
     [self setupChildViewController:[[MyNewsViewController alloc] init] title:@"新闻" image:@"tabbar_icon_news_normal" selectImage:@"tabbar_icon_news_highlight"];
     [self setupChildViewController:[[UIViewController alloc] init] title:@"阅读" image:@"tabbar_icon_reader_normal" selectImage:@"tabbar_icon_reader_highlight"];
-    [self setupChildViewController:[[UIViewController alloc] init] title:@"视频" image:@"tabbar_icon_media_normal" selectImage:@"tabbar_icon_media_highlight"];
+    [self setupChildViewController:[[VideoListViewController alloc] init] title:@"视频" image:@"tabbar_icon_media_normal" selectImage:@"tabbar_icon_media_highlight"];
     [self setupChildViewController:[[UIViewController alloc] init] title:@"话题" image:@"tabbar_icon_found_normal" selectImage:@"tabbar_icon_found_highlight"];
     [self setupChildViewController:[[UIViewController alloc] init] title:@"我" image:@"tabbar_icon_me_normal" selectImage:@"tabbar_icon_me_highlight"];
     
@@ -60,7 +61,6 @@
     viewController.navigationItem.title = title;
     viewController.tabBarItem.image = [UIImage imageNamed:image];
     viewController.tabBarItem.selectedImage = [UIImage imageNamed:selectImage];
-    //viewController.view.backgroundColor =
     MyNavigationViewController *nav = [[MyNavigationViewController alloc] initWithRootViewController:viewController];
     viewController.view.backgroundColor = ArcrandomColor;
     [self addChildViewController:nav];
