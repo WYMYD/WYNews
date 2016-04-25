@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "VideoListModel.h"
 @interface VideoListViewCell : UITableViewCell
 + (instancetype)createWithTableView:(UITableView *)tableView;
 
 - (void)setDataWithModel:(BaseModel*)model;
+
+@property (nonatomic,strong) void(^detail) (NSString *);
+
+@property (nonatomic,strong) void(^play) (VideoListModel *);
 @end

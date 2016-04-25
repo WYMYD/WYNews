@@ -41,7 +41,7 @@
 /**
  *  播放次数
  */
-@property (nonatomic,copy) NSString *playCount;
+@property (nonatomic,assign) NSInteger playCount;
 @property (nonatomic,copy) NSString *replyBoard;
 /**
  *  用户的信息
